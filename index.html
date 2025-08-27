@@ -63,7 +63,11 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
                 <!-- ▼▼▼ 프로젝트 카드 1 ▼▼▼ -->
-                <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 overflow-hidden group">
+                <!-- 
+                    [수정됨!] a 태그로 프로젝트 카드를 감싸서 링크를 만들었습니다.
+                    href="project1.html" 부분을 상세 페이지 파일명과 일치시켜 주세요.
+                -->
+                <a href="https://miococo.github.io/project1.html" class="block bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 overflow-hidden group">
                     <!-- 
                         프로젝트 대표 이미지입니다. 
                         'src'의 URL을 자신의 프로젝트 이미지 주소로 바꾸세요.
@@ -86,11 +90,11 @@
                             <span class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Responsive Web</span>
                         </div>
                     </div>
-                </div>
+                </a>
                 <!-- ▲▲▲ 프로젝트 카드 1 ▲▲▲ -->
 
                 <!-- ▼▼▼ 프로젝트 카드 2 ▼▼▼ -->
-                <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 overflow-hidden group">
+                <a href="https://miococo.github.io/project2.html" class="block bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 overflow-hidden group">
                     <img 
                         src="https://placehold.co/600x400/FCA5A5/7F1D1D?text=Project+2" 
                         alt="프로젝트 2 이미지" 
@@ -105,11 +109,11 @@
                             <span class="bg-pink-100 text-pink-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Prototyping</span>
                         </div>
                     </div>
-                </div>
+                </a>
                 <!-- ▲▲▲ 프로젝트 카드 2 ▲▲▲ -->
 
                 <!-- ▼▼▼ 프로젝트 카드 3 ▼▼▼ -->
-                <div class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 overflow-hidden group">
+                <a href="https://miococo.github.io/project3.html" class="block bg-white rounded-xl shadow-md hover:shadow-2xl transition-shadow duration-300 overflow-hidden group">
                     <img 
                         src="https://placehold.co/600x400/86EFAC/14532D?text=Project+3" 
                         alt="프로젝트 3 이미지" 
@@ -124,7 +128,7 @@
                             <span class="bg-emerald-100 text-emerald-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Logo Design</span>
                         </div>
                     </div>
-                </div>
+                </a>
                 <!-- ▲▲▲ 프로젝트 카드 3 ▲▲▲ -->
 
                 <!-- 프로젝트를 더 추가하고 싶다면, '프로젝트 카드' 부분을 복사해서 이 아래에 붙여넣으세요 -->
@@ -147,9 +151,9 @@
                 <h3 class="text-2xl font-bold text-center mt-12 mb-6 text-gray-800">SKILLS</h3>
                 <!-- 자신의 스킬을 적으세요 -->
                 <div class="flex flex-wrap justify-center gap-3">
-                    <span class="bg-gray-200 text-gray-800 font-medium px-4 py-2 rounded-lg">Figma</span>
-                    <span class="bg-gray-200 text-gray-800 font-medium px-4 py-2 rounded-lg">Adobe XD</span>
                     <span class="bg-gray-200 text-gray-800 font-medium px-4 py-2 rounded-lg">Photoshop</span>
+                    <span class="bg-gray-200 text-gray-800 font-medium px-4 py-2 rounded-lg">Illustrator</span>
+                    <span class="bg-gray-200 text-gray-800 font-medium px-4 py-2 rounded-lg">inDesign</span>
                     <span class="bg-gray-200 text-gray-800 font-medium px-4 py-2 rounded-lg">Illustrator</span>
                     <span class="bg-gray-200 text-gray-800 font-medium px-4 py-2 rounded-lg">HTML/CSS</span>
                 </div>
@@ -168,18 +172,13 @@
                 'youremail@example.com' 부분을 수정하면 됩니다.
             -->
             <a 
-                href="mailto:youremail@example.com" 
+                href="mailto:miojiolee@gmail.com" 
                 class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg transition-colors duration-300 text-lg shadow-md hover:shadow-lg"
             >
                 이메일 보내기
             </a>
 
-            <!-- 다른 연락 채널이 있다면 아래 링크를 수정하세요 -->
-            <div class="mt-8 flex justify-center space-x-6">
-                <a href="#" target="_blank" class="text-gray-500 hover:text-blue-600 transition-colors">LinkedIn</a>
-                <a href="#" target="_blank" class="text-gray-500 hover:text-blue-600 transition-colors">Behance</a>
-                <a href="#" target="_blank" class="text-gray-500 hover:text-blue-600 transition-colors">Github</a>
-            </div>
+
         </footer>
 
     </div>
